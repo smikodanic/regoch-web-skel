@@ -12,7 +12,7 @@
     "javascript framework",
     "regoch web"
   ],
-  "main": "./sys/index.js",
+  "main": "",
   "scripts": {
     "inst": "rm -rf node_modules && npm install",
     "inst-win": "remove-item 'node_modules' -recurse -force && npm install",
@@ -22,7 +22,8 @@
     "prod-win": "remove-item 'node_modules' -recurse -force && npm install --only=production && pm2 start server --name regoch-web"
   },
   "dependencies": {
-    "regoch-web": "file:../regoch-spa"
+    "regoch-web": "^1.0.0",
+    "puppeteer": "^13.0.1"
   },
   "devDependencies": {
     "browserify": "^17.0.0",
@@ -44,9 +45,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/smikodanic/regoch-web.git"
+    "url": "git+https://github.com/smikodanic/regoch-web-skel.git"
   },
   "bugs": {
-    "url": "https://github.com/smikodanic/regoch-web/issues"
+    "url": "https://github.com/smikodanic/regoch-web-skel/issues"
   }
 }

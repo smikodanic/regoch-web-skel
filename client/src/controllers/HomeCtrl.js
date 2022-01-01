@@ -1,7 +1,7 @@
 const { Controller } = require('regoch-web');
 
 
-module.exports = class HomeCtrl extends Controller {
+class HomeCtrl extends Controller {
 
   constructor(app) {
     super();
@@ -13,9 +13,9 @@ module.exports = class HomeCtrl extends Controller {
     this.setKeywords('regoch, skell, app');
     this.setLang('en');
 
-    await this.loadView('#layout', 'home/layout.html');
+    await this.loadView('#layout', 'pages/home/layout.html');
     await this.loadViews([
-      ['#main', 'home/main.html']
+      ['#main', 'pages/home/main.html']
     ], true);
   }
 
@@ -23,4 +23,8 @@ module.exports = class HomeCtrl extends Controller {
     this.$model.regochImageURL = '/assets/img/regoch.jpg';
   }
 
-};
+}
+
+
+
+module.exports = HomeCtrl;

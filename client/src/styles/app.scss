@@ -6,3 +6,11 @@
   text-align: center;
   font: 15px Verdana;
 }
+
+a {
+  color: blue;
+  &:hover {
+    color: #54CEF3 !important;
+  }
+}
+
