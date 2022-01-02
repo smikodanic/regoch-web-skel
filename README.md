@@ -1,12 +1,14 @@
 # regoch-web-skel
-The skeleton for a new Regoch Web Application.
-This is the easiest way to create a new app.
+> The skeleton for a new [Regoch Web](https://github.com/smikodanic/regoch-web) Application. This is the easiest way to create a new app.
 
-The code contains two controllers and two pages as an examples.
+The code contains basic folder structure and all need files to start the new app.
 
-## How to use
+Also it has two controllers and two pages as an examples.
+
+## How to start
+To start the new app clone the *regoch-web-skel* repository.
 ```bash
-$ git clone https://github.com/smikodanic/regoch-web-skel.git newProjectName
+$ git clone https://github.com/smikodanic/regoch-web-skel.git myApp
 $ rm -rf .git
 $ git init
 $ npm run inst
@@ -19,7 +21,7 @@ Now edit **regoch.json**, **package.json**, **README.md** and files in the **cli
 
 
 ## Documentation
-[http://www.regoch.org/web](http://www.regoch.org/)
+The Regoch Web Framework documentation is at [http://www.regoch.org/web](http://www.regoch.org/web) .
 
 
 
