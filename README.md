@@ -1,7 +1,7 @@
 # regoch-web-skel
 > The skeleton for a new [Regoch Web](https://github.com/smikodanic/regoch-web) Application. This is the easiest way to create a new app.
 
-The code contains basic folder structure and all need files to start the new app.
+The code contains basic folder structure and all needed files to start the new app.
 
 Also it has two controllers and two pages as an examples.
 
@@ -22,8 +22,6 @@ Now edit **regoch.json**, **package.json**, **README.md** and files in the **cli
 
 ## Documentation
 The Regoch Web Framework documentation is at [http://www.regoch.org/web](http://www.regoch.org/web) .
-
-
 
 
 ### Licence
